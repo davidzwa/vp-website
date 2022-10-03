@@ -3,38 +3,9 @@
     "assignees": ["davidzwa"],
     "labels": ["renovate"],
     "ignorePaths": ["**/.vscode/**", "**/.idea/**", "**/.docker/**"],
+    "automerge": true,
     "lockFileMaintenance": {
         "enabled": true,
         "extends": ["schedule:daily"]
     },
-    "packageRules": [
-        {
-            "matchDatasources": ["docker"],
-            "matchUpdateTypes": ["major"],
-            "matchPackageNames": ["node"],
-            "enabled": false
-        },
-        {
-            "matchDatasources": ["docker"],
-            "matchUpdateTypes": [
-                "minor",
-                "patch",
-                "bump",
-                "digest",
-                "rollback"
-            ],
-            "enabled": true
-        },
-        {
-            "matchUpdateTypes": [
-                "minor",
-                "patch",
-                "pin",
-                "digest",
-                "lockFileMaintenance"
-            ],
-            "enabled": true,
-            "automerge": true
-        }
-    ]
 }
