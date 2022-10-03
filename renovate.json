@@ -7,5 +7,5 @@
     "lockFileMaintenance": {
         "enabled": true,
         "extends": ["schedule:daily"]
-    },
+    }
 }
