@@ -45,7 +45,7 @@
         "tailwindcss": "3.1.8"
     },
     "devDependencies": {
-        "concurrently": "6.5.1",
+        "concurrently": "7.4.0",
         "eslint": "8.24.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-inclusive-language": "2.2.0",
