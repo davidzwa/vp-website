@@ -1,0 +1,51 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{ Venky.Prasad }</title>
+  <subtitle>Research Profile</subtitle>
+  <link href="/blog.rss" rel="self"/>
+  <link href="http://localhost:8080"/>
+  <updated>2022-09-30T00:00:00Z</updated>
+  <id>http://localhost:8080</id>
+  <author>
+    <name>David J. Zwart</name>
+  </author>
+  
+  <entry>
+    <title>VP has launched his new rocket!</title>
+    <link href="/posts/2022/vp-launches-website/"/>
+    <updated>2022-09-30T00:00:00Z</updated>
+    <id>/posts/2022/vp-launches-website/</id>
+    <content type="html">&lt;p&gt;Together with SpaZED, VP has launched his new batteryless rocket!&lt;/p&gt;
+&lt;p&gt;Go check it out here: Yoo Toob link&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Your first amazing blog post</title>
+    <link href="/posts/2021/main-post/"/>
+    <updated>2021-01-27T00:00:00Z</updated>
+    <id>/posts/2021/main-post/</id>
+    <content type="html">&lt;p&gt;This is your first blog post. And it can contain a lot of stuff. So let’s go through a few things.&lt;/p&gt;
+&lt;h2 id=&quot;code-for-fun-or-profit&quot; tabindex=&quot;-1&quot;&gt;Code for fun or profit&lt;/h2&gt;
+&lt;p&gt;Having good looking (totally opiniated here, no) code snippets is mandatory. At least for myself. The included Prism config is based on &lt;a...</content>
+  </entry>
+  
+  <entry>
+    <title>Random post</title>
+    <link href="/posts/2021/another-random-post/"/>
+    <updated>2021-01-26T00:00:00Z</updated>
+    <id>/posts/2021/another-random-post/</id>
+    <content type="html">&lt;p&gt;This is a super random post.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Your first amazing blog post</title>
+    <link href="/posts/2021/random-post/"/>
+    <updated>2021-01-24T00:00:00Z</updated>
+    <id>/posts/2021/random-post/</id>
+    <content type="html">&lt;p&gt;Call me “Random Post” if you like.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
