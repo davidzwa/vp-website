@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.0 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -368,6 +368,11 @@ video {
   height: auto;
 }
 
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -620,7 +625,7 @@ html:not(.dark) svg.lighttoggle {
 
 /* Content area */
 
-.content, 
+.content,
 .postlist {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -631,7 +636,7 @@ html:not(.dark) svg.lighttoggle {
 
 @media (min-width: 1024px) {
 
-  .content, 
+  .content,
 .postlist {
     margin-right: 8rem;
     margin-left: 8rem;
@@ -830,11 +835,11 @@ div.readingtime:hover::before {
     border-color: transparent transparent black transparent;
 }
 
-.content.post > p > a:hover, 
-.content.page a:hover, 
-a.postlistheading:hover, 
-.postlist a:hover, 
-#recents a:hover, 
+.content.post > p > a:hover,
+.content.page a:hover,
+a.postlistheading:hover,
+.postlist a:hover,
+#recents a:hover,
 #top-bar a:hover {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -886,13 +891,13 @@ nav.toc a {
     margin-left: -9px;
 }
 
-nav.toc a:active, 
+nav.toc a:active,
 nav.toc a:hover {
   --tw-text-opacity: 1;
   color: rgb(49 46 129 / var(--tw-text-opacity));
 }
 
-.dark nav.toc a:active, .dark 
+.dark nav.toc a:active,.dark 
 nav.toc a:hover {
   --tw-text-opacity: 1;
   color: rgb(165 180 252 / var(--tw-text-opacity));
