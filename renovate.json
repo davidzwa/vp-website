@@ -1,11 +1,11 @@
 {
-    "extends": ["config:base"],
-    "assignees": ["davidzwa"],
-    "labels": ["renovate"],
-    "ignorePaths": ["**/.vscode/**", "**/.idea/**", "**/.docker/**"],
-    "automerge": true,
-    "lockFileMaintenance": {
-        "enabled": true,
-        "extends": ["schedule:daily"]
-    }
+  "extends": ["config:base"],
+  "assignees": ["davidzwa"],
+  "labels": ["renovate"],
+  "ignorePaths": ["**/.vscode/**", "**/.idea/**", "**/.docker/**"],
+  "automerge": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "extends": ["schedule:daily"]
+  }
 }
