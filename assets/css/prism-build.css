@@ -158,9 +158,9 @@ html:not(.dark) pre[class*="language-"] {
   border-color: rgba(49, 46, 129);
   background-color: #fdfdfd;
   background-image: linear-gradient(
-        transparent 50%,
-        rgba(69, 142, 209, 0.04) 50%
-    );
+    transparent 50%,
+    rgba(69, 142, 209, 0.04) 50%
+  );
   background-size: 3em 3em;
   background-origin: content-box;
   background-attachment: local;
@@ -279,7 +279,7 @@ html:not(.dark) .token.namespace {
 
 @media screen and (max-width: 767px) {
   html:not(.dark) pre[class*="language-"]:before,
-    html:not(.dark) pre[class*="language-"]:after {
+  html:not(.dark) pre[class*="language-"]:after {
     bottom: 14px;
     box-shadow: none;
   }
@@ -296,8 +296,8 @@ html:not(.dark) pre[class*="language-"].line-numbers.line-numbers code {
 }
 
 html:not(.dark)
-    pre[class*="language-"].line-numbers.line-numbers
-    .line-numbers-rows {
+  pre[class*="language-"].line-numbers.line-numbers
+  .line-numbers-rows {
   left: 0;
 }
 
@@ -331,10 +331,10 @@ pre[data-line] {
   margin-top: 1em; /* Same as .prism’s padding-top */
   background: hsla(24, 20%, 50%, 0.08);
   background: linear-gradient(
-        to right,
-        hsla(24, 20%, 50%, 0.1) 70%,
-        hsla(24, 20%, 50%, 0)
-    );
+    to right,
+    hsla(24, 20%, 50%, 0.1) 70%,
+    hsla(24, 20%, 50%, 0)
+  );
   pointer-events: none;
   line-height: inherit;
   white-space: pre;
