@@ -10,6 +10,7 @@ if (isProduction) {
 module.exports = {
     purge,
     darkMode: "class",
+    content: ["./_site/**/*.{html,js}"],
     plugins: [
         function ({ addUtilities }) {
             const extendUnderline = {
