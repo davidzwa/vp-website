@@ -49,7 +49,7 @@
     "concurrently": "7.5.0",
     "eslint": "8.27.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-inclusive-language": "2.2.0",
+    "eslint-plugin-inclusive-language": "2.2.1",
     "husky": "8.0.2",
     "markdownlint": "0.26.2",
     "markdownlint-cli2": "0.5.1",
